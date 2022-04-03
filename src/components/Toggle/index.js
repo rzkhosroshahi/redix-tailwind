@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import * as Switch from "@radix-ui/react-switch";
+import {isRtl} from "../../module";
 
 function Toggle({ sm, value, ...otherProp }) {
     return (
@@ -16,12 +17,15 @@ function Toggle({ sm, value, ...otherProp }) {
 }
 
 function getThumbClass (val, sm) {
-    const baseClass = 'bg-white block z-10 rounded-full translate-x-4 transition duration-150 ease-out';
+    const baseClass = 'bg-white block z-10 rounded-full transition duration-150 ease-out';
 
     return clsx(baseClass, {
         'w-5 h-3': sm,
         'w-6 h-4': !sm,
-        'translate-x-1': val
+        '-translate-x-4': !val && isRtl(),
+        'translate-x-4': !val && !isRtl(),
+        '-translate-x-1': val && isRtl(),
+        'translate-x-1': val && !isRtl(),
     });
 }
 
