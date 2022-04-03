@@ -1,7 +1,7 @@
 {
   "name": "redix-tailwind",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://rzkhosroshahi.github.io/redix-tailwind",
   "dependencies": {
     "@radix-ui/react-switch": "^0.1.5",
