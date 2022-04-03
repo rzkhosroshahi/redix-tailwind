@@ -2,7 +2,7 @@
   "name": "redix-tailwind",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rzkhosroshahi.github.io",
+  "homepage": "https://rzkhosroshahi.github.io/redix-tailwind",
   "dependencies": {
     "@radix-ui/react-switch": "^0.1.5",
     "@testing-library/jest-dom": "^5.16.3",
