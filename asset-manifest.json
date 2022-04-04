@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/redix-tailwind/static/css/main.2da9eb44.css",
-    "main.js": "/redix-tailwind/static/js/main.e15d30f9.js",
+    "main.css": "/redix-tailwind/static/css/main.0b587a84.css",
+    "main.js": "/redix-tailwind/static/js/main.e8fbfe42.js",
     "static/js/787.b3e19de4.chunk.js": "/redix-tailwind/static/js/787.b3e19de4.chunk.js",
     "index.html": "/redix-tailwind/index.html",
-    "main.2da9eb44.css.map": "/redix-tailwind/static/css/main.2da9eb44.css.map",
-    "main.e15d30f9.js.map": "/redix-tailwind/static/js/main.e15d30f9.js.map",
+    "main.0b587a84.css.map": "/redix-tailwind/static/css/main.0b587a84.css.map",
+    "main.e8fbfe42.js.map": "/redix-tailwind/static/js/main.e8fbfe42.js.map",
     "787.b3e19de4.chunk.js.map": "/redix-tailwind/static/js/787.b3e19de4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2da9eb44.css",
-    "static/js/main.e15d30f9.js"
+    "static/css/main.0b587a84.css",
+    "static/js/main.e8fbfe42.js"
   ]
 }
