@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Toggle from "./components/Toggle";
 import './App.css';
+import Select from "./components/Select";
 
 function App() {
     const [ToggleValue, setToggleValue] = useState(true);
@@ -12,8 +13,8 @@ function App() {
     };
 
     return (
-      <section className={'flex justify-center py-5'}>
-            <div className={'flex-center bg-gray-25 w-[90%] h-[160px] rounded-xl p-4'}>
+      <section className={'flex-col-center justify-center space-y-4 py-4'}>
+            <div className={'flex-center border-2 border-primary-500 w-[90%] h-[160px] rounded-xl p-4'}>
                 <div className={'flex-col-center-y items-start w-[200px] space-y-2'}>
                     <div className={'space-s-2 flex-center'}>
                         <Toggle value={ToggleValue} onCheckedChange={changeHtmlDir} />
@@ -29,6 +30,9 @@ function App() {
                     </div>
                 </div>
             </div>
+              <div className={'flex-center border-2 border-primary-500 w-[90%] h-[160px] rounded-xl p-4'}>
+                  <Select />
+              </div>
       </section>
     );
 }

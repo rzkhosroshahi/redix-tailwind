@@ -1,0 +1,4 @@
+
+.select-options {
+    @apply w-[240px] absolute top-[40px] border-[1px] border-t-0 border-primary-500 rounded-br-xl rounded-bl-xl bg-white
+}
